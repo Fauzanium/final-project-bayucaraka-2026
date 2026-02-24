@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['payload']
+
+roboflow:
+  workspace: opencvbayucaraka
+  project: final-project-detection
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/opencvbayucaraka/final-project-detection/2
